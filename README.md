@@ -1,4 +1,5 @@
 # CelsiusKelvin
+you can see a live preview of the project from this url: https://red1code.github.io/celsius-kelvin/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
