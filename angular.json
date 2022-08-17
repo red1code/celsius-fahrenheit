@@ -105,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "celsius-kelvin"
+  "defaultProject": "celsius-fahrenheit"
 }

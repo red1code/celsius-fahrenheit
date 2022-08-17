@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/celsius-kelvin'),
+      dir: require('path').join(__dirname, './coverage/celsius-fahrenheit'),
       subdir: '.',
       reporters: [
         { type: 'html' },
