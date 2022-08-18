@@ -1,19 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 
-body {
+@font-face {
+  font-family: 'Segoe UI Emoji';
+  src: url(./assets/seguiemj.ttf);
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  min-width: 300px;
 }
 
-.input-form {
-  outline: none;
-  display: block;
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  border: 1px solid #ced4da;
-  border-radius: .25rem;
+body {
+  min-width: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/bg-by-sebastien-gabriel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

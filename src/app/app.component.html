@@ -1,16 +1,36 @@
+<div class="global-container">
+  <header class="flex-center">
+    <h1>Convert temperatures between Celsius(°C) and Fahrenheit(°F)</h1>
+  </header>
 
-<div class="header">
-  <h1>Convert temperature between Celsius(°C) and Fahrenheit(°F)</h1>
-</div>
 
-<div class="convert-container">
-  <div class="c-container">
-    <label>Celsius</label><br>
-    <input type="number" (keyup)="onKeyupCinput(cInput.value)" [value]="c" class="input-form" #cInput>
-  </div>
+  <main class="flex-center">
+    <div class="app-input-container">
+      <app-temperature-input
+        [lbl]="'Celsius'"
+        [initialValue]="c"
+        (newInputValue)="onCelsiusInput($event)">
+      </app-temperature-input>
 
-  <div class="f-container">
-    <label>Fahrenheit</label><br>
-    <input type="number" (keyup)="onKeyupFinput(fInput.value)" [value]="f" class="input-form" #fInput>
-  </div>
+      <app-temperature-input
+        [lbl]="'Fahrenheit'"
+        [initialValue]="f"
+        (newInputValue)="onFahrenheitInput($event)">
+      </app-temperature-input>
+    </div>
+  </main>
+
+
+  <footer class="flex-center">
+    <div>
+      Made with <span class="emoji">💙</span> by
+      <strong>
+        <a href="https://github.com/red1code" target="_blank"
+          style="text-decoration: none; color: inherit">
+          Red1Dev
+        </a>
+      </strong>
+      <span>{{ year }}</span>
+    </div>
+  </footer>
 </div>

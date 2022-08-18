@@ -1,0 +1,8 @@
+<div class="input-container">
+  <label>{{ lbl }}</label>
+  <br>
+  <input type="number"
+        (input)="outputNewValue(inputReference.value)"
+        [value]="initialValue"
+        #inputReference>
+</div>
