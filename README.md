@@ -1,8 +1,8 @@
-- Live preview URL: https://red1code.github.io/celsius-kelvin/
+- Live preview URL: https://red1code.github.io/celsius-fahrenheit/
 
 # CelsiusFahrenheit
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
 ## Development server
 

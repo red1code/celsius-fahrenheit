@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TemperatureInputComponent } from './components/temperature-input/temperature-input.component';
+import { TemperatureInputComponent } from './temperature-input/temperature-input.component';
 
 @NgModule({
   declarations: [
