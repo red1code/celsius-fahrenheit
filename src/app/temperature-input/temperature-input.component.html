@@ -2,7 +2,7 @@
   <label>{{ lbl }}</label>
   <br>
   <input type="number"
-        (input)="outputNewValue(inputReference.value)"
+        (input)="sendNewValue(inputReference.value)"
         [value]="initialValue"
         #inputReference>
 </div>

@@ -29,10 +29,6 @@ main {
 
 }
 
-app-temperature-input {
-  flex: 1;
-}
-
 footer {
   background-color: rgba(43, 166, 43, .5);
   color: #fff;

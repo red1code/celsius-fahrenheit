@@ -17,7 +17,7 @@ export class TemperatureInputComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  outputNewValue(value: string) {
+  sendNewValue(value: string) {
     this.newInputValue.emit(value)
   }
 
